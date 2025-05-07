@@ -1,7 +1,7 @@
 function fetchMovie(){
     const searchInput= document.getElementById("search")
     const movieName = searchInput.value;
-    const apiKey = "c5d29cf4";
+    const apiKey = "YOUR_API_KEY";
     const url = `https://www.omdbapi.com/?t=${encodeURIComponent(movieName)}&apikey=${apiKey}`;
     
 
